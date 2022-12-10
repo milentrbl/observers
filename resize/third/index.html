@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box,
+        .title,
+        .text,
+        .info {
+            transition: 0.3s;
+        }
+        .box {
+            background: #ddd;
+            color: #222;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .title,
+        .info {
+            margin: 1rem;
+        }
+        .title {
+            font-size: 2rem;
+        }
+        .text {
+            font-size: 1.25rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box" class="box">
+        <h1 id="title" class="title">Some Awesome Title</h1>
+        <p id="text" class="text">Some Main Text</p>
+        <span id="info" class="info">Some Secondary Info</span>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
